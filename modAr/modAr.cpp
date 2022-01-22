@@ -1,4 +1,4 @@
-#include<cmath>
+#include<math.h>
 #include <iostream>
 using namespace std;
 int checkNumFor11(unsigned, unsigned);
