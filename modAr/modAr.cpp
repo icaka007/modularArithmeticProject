@@ -622,10 +622,9 @@ int calculatingADiscreteLogarithm(unsigned mod) {
 
     }
     else {
-        std::cout << "Result: " << -1 << std::endl;
+       cout << "Result: " << -1 <<endl;
     }
-
-    return 0;
+return 0;
 }
 
 bool isPrime(unsigned mod) {
@@ -644,10 +643,10 @@ bool isPrime(unsigned mod) {
 
 void checkIfZnIsAResidualField(unsigned mod) {
     if (isPrime(mod)) {
-        std::cout << "Zn IS Fn" << std::endl;
+        cout << "Zn IS Fn" << endl;
     }
     else {
-        std::cout << "Zn IS NOT Fn" << std::endl;
+        cout << "Zn IS NOT Fn" << endl;
     }
 
     return;
@@ -660,9 +659,7 @@ void menu() {
     cout << "| ================== |" << endl;
     cout << "|        MENU        |" << endl;
     cout << "|____________________|" << endl;
-
-
-    cout << "1. All reminders from Zn" << endl;
+cout << "1. All reminders from Zn" << endl;
     cout << "2. Addition of two elements from Zn " << endl;
     cout << "3. Subsraction of two elements from Zn " << endl;
     cout << "4. Multipclication of two elements from Zn " << endl;
@@ -675,6 +672,4 @@ void menu() {
     cout << "11. finding all primitive roots of Zn" << endl;
     cout << "12. Calculation of discrete logarithm" << endl;
     cout << "13.checking if Zn is Fn? " << endl;
-
-
 }
