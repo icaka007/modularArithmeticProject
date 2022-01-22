@@ -503,7 +503,7 @@ bool checkIfANumberFromZnIsAPrimitiveRoot(unsigned num, unsigned mod) {
     else {
 
         if (isPositive) {
-            std::cout << num << " IS NOT a prime root." << std::endl;
+            cout << num << " IS NOT a prime root." << endl;
 
             if (arrPrime != nullptr) {
                 delete[] arrPrime;
@@ -571,8 +571,7 @@ int calculatingADiscreteLogarithm(unsigned mod) {
         if (element == 1) {
             std::cout << "dlog from " << element << " with base " << base << " is: " << 0 << std::endl;
         }
-
-        int* temp = new int[mod];
+int* temp = new int[mod];
 
         for (unsigned i = 1; i < mod; i++) {
             if (coprime(i, mod)) {
