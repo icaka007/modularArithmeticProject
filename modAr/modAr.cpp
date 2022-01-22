@@ -515,7 +515,7 @@ bool checkIfANumberFromZnIsAPrimitiveRoot(unsigned num, unsigned mod) {
                 temp = nullptr;
             }
 
-            return false;
+         return false;
 
         }
         else {
