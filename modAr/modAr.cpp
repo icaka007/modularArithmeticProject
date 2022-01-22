@@ -420,10 +420,7 @@ int bringANumberFromZnToAPowerUsingSecondMethod(unsigned mod) {
 }
 
 bool checkIfANumberFromZnIsAPrimitiveRoot(unsigned num, unsigned mod) {
-    /*
-    std::cout<<"Enter num: "<<std::endl;
-    num=checkNum(num,mod);
-    */
+  
     int* temp = new int[mod];
 
 
@@ -515,9 +512,9 @@ bool checkIfANumberFromZnIsAPrimitiveRoot(unsigned num, unsigned mod) {
                 temp = nullptr;
             }
 
-            return false;
+         return false;
 
-        }
+     }
         else {
             std::cout << num << " IS a prime root." << std::endl;
 
@@ -548,7 +545,6 @@ int findAllPrimitiveRootsInZn(unsigned mod) {
         delete[] allPrimitive;
         allPrimitive = nullptr;
     }
-
     return 0;
 }
 
