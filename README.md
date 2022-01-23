@@ -32,11 +32,11 @@ then the goal is to calculate a^m for the optimal time. There are two approaches
 For example, n=7,a=3,m=100, we have:
 
 
-3^2=3*3^1≡(mod 7) 2,
-3^3=3*3^2≡(mod 7) 3*2≡(mod 7) 6,
-3^4=3*3^3≡(mod 7) 3*6≡(mod 7) 4,
-3^5=3*3^4≡(mod 7) 3*4≡(mod 7) 5,
-3^6=3*3^5≡(mod 7) 3*5≡(mod 7) 1,
+3^2= 3*3^1≡(mod 7) 2,
+3^3= 3*3^2≡(mod 7) 3*2≡(mod 7) 6,
+3^4= 3*3^3≡(mod 7) 3*6≡(mod 7) 4,
+3^5= 3*3^4≡(mod 7) 3*4≡(mod 7) 5,
+3^6= 3*3^5≡(mod 7) 3*5≡(mod 7) 1,
 3^100≡(mod 7) 3^100 mod 6≡(mod 7) 3^4≡(mod 7) 4,
 
 
