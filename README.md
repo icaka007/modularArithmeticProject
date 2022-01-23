@@ -6,9 +6,9 @@ and 0 is the identity element. Let's take a look at Z7, for example.
 Z7={0,1,2,3,4,5,6}
 
 
-3+4=0 (mod 7),                                               2-5=4(mod 7),                                                            2*6=1(mod 7),
-2+6=1(mod 7),                                             1-3=5(mod 7),                                                            4*4=2(mod 7),
-4+5=2(mod 7),                                               4-5=6(mod 7),                                                            5*5=4(mod 7),  
+3+4=0 (mod 7),                                               2-5=4(mod 7),                                                            2x6=1(mod 7),
+2+6=1(mod 7),                                             1-3=5(mod 7),                                                            4x4=2(mod 7),
+4+5=2(mod 7),                                               4-5=6(mod 7),                                                            5x5=4(mod 7),  
 
 
 The division operation is defined by multiplication by the reciprocal of the divisor. In other words, a:b=a*(1/b), where 1/b is the reciprotical element(the number which
@@ -32,11 +32,11 @@ then the goal is to calculate a^m for the optimal time. There are two approaches
 For example, n=7,a=3,m=100, we have:
 
 
-3^2= 3*3^1≡(mod 7) 2,
-3^3= 3*3^2≡(mod 7) 3*2≡(mod 7) 6,
-3^4= 3*3^3≡(mod 7) 3*6≡(mod 7) 4,
-3^5= 3*3^4≡(mod 7) 3*4≡(mod 7) 5,
-3^6= 3*3^5≡(mod 7) 3*5≡(mod 7) 1,
+3^2= 3X3^1≡(mod 7) 2,
+3^3= 3X3^2≡(mod 7) 3X2≡(mod 7) 6,
+3^4= 3X3^3≡(mod 7) 3X6≡(mod 7) 4,
+3^5= 3X3^4≡(mod 7) 3X4≡(mod 7) 5,
+3^6= 3X3^5≡(mod 7) 3X5≡(mod 7) 1,
 3^100≡(mod 7) 3^100 mod 6≡(mod 7) 3^4≡(mod 7) 4,
 
 
@@ -52,5 +52,5 @@ n=7,a=3,m=100
 3^32=(3^16)^2≡(mod 7) 4^2≡(mod 7) 2,
 3^64=(3^32)^2≡(mod 7) 2^2≡(mod 7) 4,
 So we have:
-3^100=3^64+32+4≡(mod 7) 4*2*4≡(mod 7) 4
+3^100=3^64+32+4≡(mod 7) 4x2x4≡(mod 7) 4
 
