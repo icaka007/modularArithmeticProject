@@ -53,5 +53,26 @@ n=7,a=3,m=100
 3^64=(3^32)^2≡(mod 7) 2^2≡(mod 7) 4,
 So we have:
 3^100=3^64+32+4≡(mod 7) 4x2x4≡(mod 7) 4
+How to work with with program?
 
 When you run the program, a menu list will be shown on the screen and you will be expected to write a number from 1 to 13. Which task will be executed depends on the number you write. On the mmenu list you will see every task what is supposed to do. Also when you choose which task you want to see, you must also enter the number of Z. I think that there are vey different tasks on modular arithmetic and I wish my project would be helpful to do these tasks.
+If you enter number 1, the first task will be executed which will show you all the remainders(0,1,2....n-1) from Zn.
+If you enter number 2, the second task will be executed which will show you the additions of the elements from Zn.
+If you enter number 3, the third task will be executed which will show you all the substractions of the elements from Zn.
+If you enter number 4, the fourth task will be executed which will show you all the multiplication of the elements from Zn.
+If you enter number 5, the fifth task will be executed which will give you the reciprotic number to all of the elemets from Zn. If the number does not have a reciprotic
+number -1 will be written.
+If you enter number 6, the sixth task will be executed which will show you the reciprotic number of a number from Zn which you will be expected to enter.
+If you enter number 7, the seventh task will be executed which will show you all the divisions of the elements from Zn.
+If you enter number 8, the eighth task will be executed which will bring a number from Zn to a power using the first fast algorithm. You will be expected to enter
+the number from Zn and the power.
+If you enter number 9, the ninth task will be executed which will bring a number from Zn to a power using the second fast algorithm. You will be expected to enter
+the number from Zn and the power.
+If you enter number 10, the tenth task will show you if a number from Zn is a primitive root or not. You will be expected to enter the number.
+If you enter number 11, the eleventh task will show you all the primitive roots of Zn.
+If you enter number 12, the twelfth task will will be executed and will calculate the discrete logarithm of a number from Zn.You will be expected to enter a number.
+If you enter number 13, the thirteenth task will be executed and will show you if Zn a Fn.
+If you enter a smaller number than 1 or a bigger number than 13, you will be expected to enter e new number while you enter a number from this range[1,13]
+
+
+
