@@ -54,3 +54,4 @@ n=7,a=3,m=100
 So we have:
 3^100=3^64+32+4≡(mod 7) 4x2x4≡(mod 7) 4
 
+When you run the program, a menu list will be shown on the screen and you will be expected to write a number from 1 to 13. Which task will be executed depends on the number you write. On the mmenu list you will see every task what is supposed to do. Also when you choose which task you want to see, you must also enter the number of Z. I think that there are vey different tasks on modular arithmetic and I wish my project would be helpful to do these tasks.
