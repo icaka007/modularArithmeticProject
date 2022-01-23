@@ -2,7 +2,9 @@
 My project is about different tasks on modular arithmetic which can be helpful for you. In In short,the notation Z n or also Z n usually denotes a cyclic group, and particularly
 the (additive) group of integers modulo n. For any modulus, n, the set of integers from 0 to n − 1 forms a group under modular addition: the inverse of any element a is n − a,
 and 0 is the identity element. Let's take a look at Z7, for example.
+
 Z7={0,1,2,3,4,5,6}
+
 3+4=0 (mod 7)                                              2-5=4(mod 7)                                                            2*6=1(mod 7)
 2+6=1(mod 7)                                               1-3=5(mod 7)                                                            4*4=2(mod 7)
 4+5=2(mod 7)                                               4-5=6(mod 7)                                                            5*5=4(mod 7)  
