@@ -420,10 +420,7 @@ int bringANumberFromZnToAPowerUsingSecondMethod(unsigned mod) {
 }
 
 bool checkIfANumberFromZnIsAPrimitiveRoot(unsigned num, unsigned mod) {
-    /*
-    std::cout<<"Enter num: "<<std::endl;
-    num=checkNum(num,mod);
-    */
+  
     int* temp = new int[mod];
 
 
@@ -503,7 +500,7 @@ bool checkIfANumberFromZnIsAPrimitiveRoot(unsigned num, unsigned mod) {
     else {
 
         if (isPositive) {
-            std::cout << num << " IS NOT a prime root." << std::endl;
+            cout << num << " IS NOT a prime root." << endl;
 
             if (arrPrime != nullptr) {
                 delete[] arrPrime;
@@ -515,9 +512,9 @@ bool checkIfANumberFromZnIsAPrimitiveRoot(unsigned num, unsigned mod) {
                 temp = nullptr;
             }
 
-            return false;
+         return false;
 
-        }
+     }
         else {
             std::cout << num << " IS a prime root." << std::endl;
 
@@ -548,7 +545,6 @@ int findAllPrimitiveRootsInZn(unsigned mod) {
         delete[] allPrimitive;
         allPrimitive = nullptr;
     }
-
     return 0;
 }
 
@@ -571,8 +567,7 @@ int calculatingADiscreteLogarithm(unsigned mod) {
         if (element == 1) {
             std::cout << "dlog from " << element << " with base " << base << " is: " << 0 << std::endl;
         }
-
-        int* temp = new int[mod];
+int* temp = new int[mod];
 
         for (unsigned i = 1; i < mod; i++) {
             if (coprime(i, mod)) {
